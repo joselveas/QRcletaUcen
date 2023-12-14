@@ -1,0 +1,48 @@
+/*
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+ */ 
+  .header {
+    background-color: #001aff;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Para separar los elementos a cada extremo */
+    align-items: center;
+  }
+  .header img {
+    max-width: 100px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  }
+  
+  .table-container {
+    text-align: center;
+    color: black;
+    width: 80%;
+    margin: auto;
+    max-width: 100%; /* Añade esta propiedad */
+  }
+  
+  .table {
+    width: 100%; /* Establece el ancho de la tabla al 100% del contenedor */
+  }
+  
+  .table-primary th {
+    background-color: #ff7b00;
+    color: white;
+  }
+  .table {
+    width: 80%;
+    font-size: 16px; /* Ajusta el tamaño del texto según tus preferencias */
+  }
+  
+  .table th,
+  .table td {
+    /* Puedes ajustar el tamaño de texto específico para las celdas si lo deseas */
+    font-size: 16px;
+  }

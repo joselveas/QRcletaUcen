@@ -1,0 +1,73 @@
+.UserHead{
+    background-color: #fd5000;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: -25%;;
+}
+
+.NombreUs{
+    padding-top: 30%;
+    padding-bottom: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.BikeBox{
+    background-color: #fd5000;
+    margin-bottom: 8px;
+    display:flex;
+    align-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.BikeBox:hover{
+    background-color: #002affb2;
+}
+
+.BikeBoxCont{
+    color: white;
+    margin: 4px;
+    width: 100%;
+}
+.BikeBoxCont h3{
+    font-size: small;
+}
+.BikeBoxCont p{
+    font-size: x-small;
+}
+.Perfil{
+    display: block;
+}
+
+.UserHeadNR{
+    background-color: rgb(255, 94, 0);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    width: 35%;
+
+}
+/*
+
+    text-align: left;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+.NombreUsNR{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.PerfilNR{
+    display:flex;
+}
+
+.pagina{
+    width: 65%;
+}
